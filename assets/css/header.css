@@ -462,9 +462,15 @@
 	border-right:1px solid var(--light-border-color);
 }
 
+
+
 .main-header .sticky-header .main-menu .navigation > li > a{
 	padding:23px 0px;
-	color:var(--dark-color);
+	color:#fff;
+}
+
+.sticky-header{
+	background: #000 !important;
 }
 
 .main-header .sticky-header .main-menu .navigation > li:hover > a,
