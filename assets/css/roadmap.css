@@ -3188,9 +3188,16 @@ body {
     color: #fff !important;
 }
 
-.mobile-menu .close-btn,  .clearfix li a{
-    color: #15222b  !important;
+.mobile-menu .close-btn{
+    color: #fff  !important;
 }
+
+@media screen and (max-width: 800px) {
+    .clearfix li a{
+        color: #fff !important;
+    }
+}
+
 .js .cd-h-timeline__filling-line {
     position: absolute;
     z-index: 1;
