@@ -3182,6 +3182,15 @@ body {
         transform 0.4s,
         -webkit-transform 0.4s;
 }
+
+#mCSB_1{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.mobile-menu .close-btn,  .clearfix li a{
+    color: #15222b  !important;
+}
 .js .cd-h-timeline__filling-line {
     position: absolute;
     z-index: 1;
