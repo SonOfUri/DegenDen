@@ -859,7 +859,7 @@ img{
 	color: var(--white-color);
 	font-size: var(--font-22);
 	text-transform: capitalize;
-	background-color:var(--heading-color);
+	background-color: #1e77b6 !important;
 	font-family: var(--font-family-Teko);
 	-webkit-transition-duration: 800ms;
 	transition-duration: 800ms;

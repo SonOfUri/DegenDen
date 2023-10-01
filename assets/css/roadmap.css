@@ -3219,6 +3219,20 @@ body {
     user-select: none;
     text-decoration: none;
 }
+
+					@keyframes heartbeat {
+						0% {
+							transform: scale(1);
+						}
+						50% {
+							transform: scale(1.99);
+						}
+						100% {
+							transform: scale(1);
+						}
+					}
+			
+					
 .js .cd-h-timeline__date::after {
     content: "";
     position: absolute;
@@ -3239,6 +3253,9 @@ body {
     transition:
         background-color 0.3s,
         border-color 0.3s;
+
+						animation: heartbeat 2s infinite !important;
+
 }
 .js .cd-h-timeline__date:hover::after {
     background-color: hsl(74, 93%, 32%);

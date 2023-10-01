@@ -456,6 +456,10 @@
 }
 
 
+.footer-bottom-two, .sidebar-textwidget{
+  background-color: #000 !important;
+}
+
 @-webkit-keyframes zoom-fade {
   0% {
     -webkit-transform: scale(0.8);
