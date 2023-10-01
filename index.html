@@ -55,6 +55,10 @@
 		h1, h2, h3, h4, h5, h6{
 			font-family: 'Orbitron', sans-serif;
 		} */
+
+		.header-upper{
+			background-color: #000 !important;
+		}
 	</style>
 </head>
 
@@ -579,7 +583,7 @@
 	<!-- Services Section -->
 	<section class="services-section">
 		<div class="pattern-layer-one" style="background-image: url(assets/images/background/pattern-2.png)"></div>
-		<div class="pattern-layer-six" style="background-image: url(assets/images/background/pattern-3.png)"></div>
+		<!-- <div class="pattern-layer-six" style="background-image: url(assets/images/background/pattern-3.png)"></div> -->
 		<div class="auto-container">
 			<div class="inner-container">
 				<div class="row clearfix">
@@ -627,8 +631,8 @@
 				<div class="images-column col-lg-6 col-md-12 col-sm-12 m-auto">
 					<div class="chartbox">
 						<h1 class="text-center text-light">Tokenomics</h1>
-						<h6 class="text-center text-light">Suply: 1,000,000</h6>
-						<h6 class="text-center text-light">Tax: 5/5</h6>
+						<h2 class="text-center text-light">Suply: 1,000,000</h2>
+						<h2 class="text-center text-light">Tax: 5/5</h2>
 
 						<canvas id="tokenchart" width="200" height="200"></canvas>
 					</div>
@@ -652,7 +656,8 @@
 							legend: {
 								display: true,
 								labels: {
-									fontColor: '#F8F9FA'
+									fontColor: '#F8F9FA',
+									fontSize: 40
 								}
 							},
 							scales: {
@@ -682,7 +687,7 @@
 										return context.dataIndex > 0.9; // display labels with an odd index
 									},
 									font: {
-										size: 16
+										size: 20
 									},
 								}
 							}
@@ -928,7 +933,7 @@
 									style="background-image: url(assets/images/icons/plus-icon.png)"></div>
 								<div class="icon-layer-two"
 									style="background-image: url(assets/images/icons/circle-icon.png)"></div>
-								<div class="designation">Wed Developer</div>
+								<div class="designation">Web Developer</div>
 								<h4><a href="#">Savannah Nguyen</a></h4>
 							</div>
 						</div>
@@ -1026,30 +1031,8 @@
 		<div class="auto-container">
 			<div class="row clearfix">
 
-				<!-- Thumbs Column -->
-				<div class="thumbs-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-
-						<div class="author_img_wrap pos-rel">
-							<!-- <div class="tm_bg" style="background-image: url(assets/images/background/tm-bg.png);"></div> -->
-							<div class="author_img">
-								<img src="assets/images/resource/author_img.png" alt="">
-							</div>
-							<div class="icon-layer" style="background-image: url(assets/images/icons/vector-10.png)">
-							</div>
-							<div class="quote-icon">
-								<img src="assets/images/icons/tm_quote.png" alt="">
-							</div>
-							<div class="image-one"><img src="assets/images/resource/author-6.jpg" alt=""></div>
-							<div class="image-five"><img src="assets/images/resource/author-8.jpg" alt=""></div>
-							<div class="image-six"><img src="assets/images/resource/author-9.jpg" alt=""></div>
-							<div class="image-four"><img src="assets/images/resource/author-7.jpg" alt=""></div>
-						</div>
-					</div>
-				</div>
-
 				<!-- Carousel Column -->
-				<div class="carousel-column col-lg-6 col-md-12 col-sm-12">
+				<div class="carousel-column col-lg-16 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<!-- Sec Title -->
 						<div class="sec-title">

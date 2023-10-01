@@ -529,7 +529,7 @@
 .main-header .sticky-header .mobile-nav-toggler{
 	display:none;
 	cursor:pointer;
-	color:var(--black-color);
+	color:#fff);
 	font-size:var(--font-30);
 	font-family: "flaticon";
 }
@@ -1139,7 +1139,7 @@
 	font-size: var(--font-26);
 	line-height: 44px;
 	cursor: pointer;
-	color:var(--dark-color);
+	color:#fff;
 	display: none;
 	font-family: "flaticon";
 }

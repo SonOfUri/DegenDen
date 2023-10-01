@@ -449,6 +449,12 @@
     -o-animation-timing-function: linear;
 }
 
+@media screen and (max-width:800px) {
+  .icon-layer-three{
+    display: none !important;
+  }
+}
+
 
 @-webkit-keyframes zoom-fade {
   0% {
