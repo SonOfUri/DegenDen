@@ -620,7 +620,7 @@
 
 .about-section{
 	position:relative;
-	padding:110px 0px 70px;
+	padding:10px 0px 70px;
 	background-color:var(--grey-color);
 }
 
@@ -1870,7 +1870,7 @@
 .team-section{
 	position:relative;
 	overflow:hidden;
-	padding:110px 0px 0px;
+	padding:10px 0px 0px;
 	/* background-color:var(--white-color); */
 	background-color: #000;
 }
