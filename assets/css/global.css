@@ -613,10 +613,10 @@ ul,li{
 	margin:0px;	
 }
 
-img{
+/* img{
 	display:inline-block;
 	max-width:100%;
-}
+} */
 
 .theme-btn{
 	cursor:pointer;
@@ -1218,11 +1218,11 @@ img{
 	color:var(--white-color-two);
 }
 
-img{
+/* img{
 	display:inline-block;
 	max-width:100%;
 	height:auto;	
-}
+} */
 
 /*** 
 
