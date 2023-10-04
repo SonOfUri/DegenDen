@@ -288,12 +288,31 @@
 
 			}
 
-			@media screen and (max-width: 800px) {
+			.u-class-1{
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.u-class-2{
+				height: 100vh;
+			}
+
+			/* @media screen and (max-width: 800px) {
 				.banner{
 					padding-top: 35px !important;
 				padding-bottom: 15px !important;
 				}
 			}
+
+
+			@media screen and (max-width: 1450px) {
+				.banner{
+					padding-top: 150px !important;
+				padding-bottom: 150px !important;
+				}
+			} */
 
 		
 		
@@ -303,8 +322,8 @@
 	
 	<div class="auto-container">
 		<!-- Content Column -->
-		<div class="content-column col-lg-12 col-md-12 col-sm-12">
-			<div class="inner-column">
+		<div class="content-column col-lg-12 col-md-12 col-sm-12  u-class-2">
+			<div class="inner-column u-class-1">
 				<div class="banner ">
 					<div style="text-align: left; width: 50%;" class="m-auto">
 						<div class="sec-title">
