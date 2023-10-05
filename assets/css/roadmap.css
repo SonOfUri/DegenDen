@@ -3133,7 +3133,7 @@ body {
 .js .cd-h-timeline__container {
     position: relative;
     height: 100px;
-    max-width: 800px;
+    /* max-width: 800px; */
 }
 .js .cd-h-timeline__dates {
     position: relative;
@@ -3392,9 +3392,9 @@ body {
 .js .cd-h-timeline__event--leave-left {
     animation-direction: reverse;
 }
-.js .cd-h-timeline__event-content {
+/* .js .cd-h-timeline__event-content {
     max-width: 800px;
-}
+} */
 .js .cd-h-timeline__event-title {
     color: hsl(0, 0%, 22%);
     color: var(--cd-color-1);

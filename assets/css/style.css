@@ -697,7 +697,7 @@
 
 .about-section .content-column{
 	position:relative;
-	margin-bottom:var(--margin-bottom-30);
+	/* margin-bottom:var(--margin-bottom-30); */
 }
 
 .about-section .content-column .inner-column{
