@@ -46,6 +46,10 @@
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
 	<style>
+
+		body{
+			background-color: #000 !important;
+		}
 		.white {
 			color: #fff !important;
 		}
@@ -300,6 +304,17 @@
 			.u-class-2 {
 				height: 100vh;
 			}
+
+			.u-class-3{
+				text-align: left;
+				width: 50%;
+			}
+
+			@media screen and (max-width: 600px) {
+				.u-class-3{
+					width: 100%;
+				}
+			}
 		</style>
 
 		<section class="about-section">
@@ -309,7 +324,7 @@
 				<div class="content-column col-lg-12 col-md-12 col-sm-12  u-class-2">
 					<div class="inner-column u-class-1">
 						<div class="banner ">
-							<div style="text-align: left; width: 50%;">
+							<div class="u-class-3">
 								<div class="sec-title">
 									<!-- <div class="title">About</div> -->
 									<h2 class="white">Connecting <span>Crypto</span> Professionals</h2>
